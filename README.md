@@ -3,7 +3,7 @@
 <!-- markdownlint-disable no-duplicate-header -->
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/bae2201a-dfff-4581-8f2e-b949616ff7cd" width="100%" alt="OTA-v1" style="border-radius: 10px;" />
+  <img width="1280" alt="beholder-tool-kit-long" src="https://github.com/user-attachments/assets/6179e165-259a-432a-bf86-fb1b57eebcb4" />
 </div>
 <br>
 <div align="center" style="line-height: 1;">
