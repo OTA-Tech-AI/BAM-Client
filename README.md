@@ -18,7 +18,7 @@
 
 # BAM-Client
 
-This repository provides an out-of-the-box tool for utilizing [OTA's Browser Action Model (BAM)](https://github.com/OTA-Tech-AI/OTA-v1), with enhanced features built on top of existing frameworks. It is intended as a supplementary repo to the model, enabling seamless interaction with web environments through a browser-based agent system.
+This repository provides an out-of-the-box tool for utilizing [OTA's Browser Agent Model (BAM)](https://github.com/OTA-Tech-AI/OTA-v1), with enhanced features built on top of existing frameworks. It is intended as a supplementary repo to the model, enabling seamless interaction with web environments through a browser-based agent system.
 
 This repo is **forked from**:
 
