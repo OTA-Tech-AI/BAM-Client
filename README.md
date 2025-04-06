@@ -33,15 +33,14 @@ The [Browser Action Model (BAM)](https://github.com/OTA-Tech-AI/OTA-v1) is a lig
 
 Please refer to the [OTA-v1](https://github.com/OTA-Tech-AI/OTA-v1) for model setup.
 
+#### Run the follwing command to confirm proper installation:
+
+`ollama show OTA-v1`
+
 ### env setup
 Setup your virtual environment using pip:
 
 `pip install -r requirements.txt`
-
-### API Key
-create a file named **.env** under the root directory and add your API key for LLM, for example:
-
-`OPENAI_API_KEY=sk-proj...`
 
 ### Prepare Tasks
 
@@ -64,7 +63,7 @@ please refer to [WebVoyager](https://github.com/MinorJerry/WebVoyager) for more 
 ### Execute your tasks
 Run the following command to start the task:
 
-`python run_tasks.py --model-provider openai --max-concurrent 1 --task_jsonl_path testcases/OTA_testdataset_mini.jsonl`
+`python run_tasks.py --model-provider ollama --max-concurrent 1 --task_jsonl_path testcases/OTA_testdataset_mini.jsonl`
 
 
 ## 🔧 Improvements Over the Original `browser-use` Framework
