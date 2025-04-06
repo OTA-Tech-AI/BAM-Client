@@ -29,18 +29,26 @@ This repo is **forked from**:
 
 The [Browser Action Model (BAM)](https://github.com/OTA-Tech-AI/OTA-v1) is a lightweight, non-generative model designed by OTA Technology Inc. for intelligent browser-based automation. This repository makes it easy to plug BAM into a fully functional browser action loop with minimal setup.
 
-## 📦 Get Started
+## 📦 Quick Start
 
-Please refer to the [OTA-v1](https://github.com/OTA-Tech-AI/OTA-v1) for model setup.
+### Hardware Requirement
 
-#### Run the follwing command to confirm proper installation:
+Make sure your Dedicated GPU Memory > 20 GB 
 
-`ollama show OTA-v1`
+Please refer to the [OTA-v1](https://github.com/OTA-Tech-AI/OTA-v1) for detailed model info.
+
+### Run the follwing command to pull OTA-v1 from Hugging Face:
+
+```
+ollama pull hf.co/OTA-AI/OTA-v1
+```
 
 ### env setup
 Setup your virtual environment using pip:
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ### Prepare Tasks
 
@@ -63,7 +71,9 @@ please refer to [WebVoyager](https://github.com/MinorJerry/WebVoyager) for more 
 ### Execute your tasks
 Run the following command to start the task:
 
-`python run_tasks.py --model-provider ollama --max-concurrent 1 --task_jsonl_path testcases/OTA_testdataset_mini.jsonl`
+```
+python run_tasks.py --model-provider ollama --max-concurrent 1 --task_jsonl_path testcases/OTA_testdataset_mini.jsonl
+```
 
 
 ## 🔧 Improvements Over the Original `browser-use` Framework
