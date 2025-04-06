@@ -149,7 +149,7 @@ def get_llm_model_generator(
             llm = ChatOpenAI(model="gpt-4o", temperature=0)
             yield llm
         elif model_provider == "ollama":
-            llm = ChatOllama(model="ota-preview-v16", num_ctx=20000,temperature=0)
+            llm = ChatOllama(model="OTA-v1", num_ctx=20000,temperature=0)
             yield llm
         else:
             raise ValueError(f"Invalid model provider: {model_provider}")
