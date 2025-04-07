@@ -31,6 +31,13 @@ The [Browser Action Model (BAM)](https://github.com/OTA-Tech-AI/OTA-v1) is a lig
 
 ## 📦 Quick Start
 
+### Set up conda environment
+
+```
+conda create -n BAM python=3.12
+conda activate BAM
+```
+
 ### Hardware Requirement
 
 Make sure your Dedicated GPU Memory > 20 GB 
