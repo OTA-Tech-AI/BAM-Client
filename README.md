@@ -29,6 +29,10 @@ This repo is **forked from**:
 
 The [Browser Action Model (BAM)](https://github.com/OTA-Tech-AI/OTA-v1) is a lightweight, non-generative model designed by OTA Technology Inc. for intelligent browser-based automation. This repository makes it easy to plug BAM into a fully functional browser action loop with minimal setup.
 
+## 💻 Demo
+
+[![Video Thumbnail](https://img.youtube.com/vi/cVLcILFg-Gc/0.jpg)](https://youtu.be/cVLcILFg-Gc)
+
 ## 📦 Quick Start
 
 ### Set up conda environment
