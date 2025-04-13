@@ -104,4 +104,4 @@ This project inherits licensing terms from its upstream forks. Refer to each res
 
 ---
 
-Maintained by [OTA Technology Inc.](https://www.otatech.ai/ota-agent)
+Maintained by [OTA Technologies Inc.](https://www.otatech.ai/)
